@@ -1,0 +1,9 @@
+[project]
+name = "wikistar"
+version = "0.1.0"
+description = "A Modal pipeline for a dump-scale Wikipedia philosophy graph"
+requires-python = ">=3.11"
+dependencies = ["modal>=1.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
